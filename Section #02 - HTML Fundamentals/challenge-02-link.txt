@@ -1,0 +1,6 @@
+https://codepen.io/Dimitar-Mitranov/pen/OJBdYde
+
+	There were two challenges for this section. 
+First one was connected to index.html and blog.html
+Second one was to create a new project in codepen. 
+This here is the link to the codepen challenge. 

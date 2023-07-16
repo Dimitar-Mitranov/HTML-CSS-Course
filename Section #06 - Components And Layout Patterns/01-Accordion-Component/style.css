@@ -1,0 +1,76 @@
+/* ACCORDION MAIN SECTION */
+.accordion {
+  width: 700px;
+  margin: 100px auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.item {
+  padding: 24px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+
+  row-gap: 32px;
+  column-gap: 24px;
+  align-items: center;
+}
+
+/* ITEMS FIRST SEGMENT */
+.number {
+  color: #ced4da;
+
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.extend-button {
+  color: #087f5b;
+
+  height: 24px;
+  width: 24px;
+}
+
+.accordion-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* ITEMS HIDDEN CONTENT */
+.hidden-box {
+  grid-column: 2;
+  display: none;
+}
+
+.hidden-box-content {
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.hidden-box-list {
+  color: #868e96;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 24px;
+  gap: 12px;
+}
+
+/* ACTIVE ITEM */
+.active {
+  border-top: 5px solid #087f5b;
+}
+
+.active .number,
+.active .title {
+  color: #087f5b;
+}
+
+.active .hidden-box {
+  display: block;
+}

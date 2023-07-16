@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+Main Color: #087f5b #099268 #12b886 #12b886 #20c997 #38d9a9 #63e6be #96f2d7 #c3fae8 #e6fcf5
+
+Gray Color: #212529 #343a40 #495057 #868e96 #adb5bd #ced4da #dee2e6 #e9ecef #f1f3f5 #f8f9fa
+-------------------------------------------------------------------------------------------------------------------*/
+
+/* MAIN SECTION */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+
+/* NAVBAR  SECTION */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px 36px;
+  background-color: #087f5b;
+}
+
+.title {
+  color: #f8f9fa;
+  font-size: 36px;
+}
+
+.navbar-links a:link {
+  color: #f8f9fa;
+  font-size: 18px;
+  text-decoration: none;
+
+  padding: 12px 24px;
+  border-radius: 100px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline #f8f9fa;
+  font-weight: 700;
+
+  background-color: #099268;
+}
+
+.navbar-links a:visited {
+  color: #f8f9fa;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel Component</title>
+
+    <link rel="stylesheet" href="../common.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <h1 class="title">CAROUSEL COMPONENT</h1>
+
+      <nav class="navbar-links">
+        <a href="../index.html">Index</a>
+        <a href="../01-Accordion-Component/index.html">Accordion</a>
+        <a href="../03-Table-Component/index.html">Table</a>
+        <a href="../04-Pagination-Component/index.html">Pagination</a>
+        <a href="../05-Hero-Section/index.html">Hero Section</a>
+      </nav>
+    </header>
+    <div class="carousel">
+      <img
+        src="/images/maria.jpg"
+        class="testimonial-image"
+        alt="Maria de Almeida"
+      />
+      <blockquote class="testimonial-section">
+        <p class="testimonial-text">
+          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
+          provident quis autem nulla aliquam sint voluptates exercitationem
+          earum.
+        </p>
+        <p class="testimonial-author">Maria de Almeida</p>
+        <p class="testimonial-job">Product Manager at EDP Comercial</p>
+      </blockquote>
+
+      <button class="nav-button button-left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="button-image"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
+      </button>
+      <button class="nav-button button-right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="button-image"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          />
+        </svg>
+      </button>
+      <div class="dots">
+        <button class="dot active-dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+      </div>
+    </div>
+  </body>
+</html>

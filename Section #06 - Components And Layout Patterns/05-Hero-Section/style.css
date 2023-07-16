@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap");
+
+/* NAVBAR SECTION */
+.navbar {
+  background-color: #e67e22;
+}
+
+.navbar-links a:hover {
+  color: #343a40;
+  background-color: #fff;
+  font-weight: 700;
+}
+
+/* HERO SECTION */
+.hero-section {
+  height: calc(100vh - 76px);
+
+  background-image: linear-gradient(
+      rgba(10, 10, 10, 0.6),
+      rgba(20, 20, 20, 0.6)
+    ),
+    url(../images/hero.jpg);
+  background-size: cover;
+}
+
+.hero-header {
+  color: #fff;
+  font-size: 52px;
+  margin-bottom: 32px;
+}
+
+.hero-text {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+
+.button:link,
+.button:visited {
+  display: inline-block;
+
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+
+  background-color: #e67e22;
+  padding: 16px 32px;
+  border-radius: 9px;
+}
+
+.hero-box {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(0%, -50%);
+}
